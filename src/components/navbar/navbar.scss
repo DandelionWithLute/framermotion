@@ -1,0 +1,20 @@
+.container {
+  height: 10vh;
+  align-items: center;
+  display: flex;
+}
+
+.header {
+  font-size: 48px;
+  margin-left: 100px;
+}
+
+.icons {
+  display: flex;
+  margin-left: 50vw;
+  margin-right: 5vh;
+  width: 35%;
+  height: 32px;
+  justify-content: flex-end;
+  gap: 1vh;
+}

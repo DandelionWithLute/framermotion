@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  margin-left: 100px;
+}
+
+.content {
+    flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .name {
+    display: flex;
+    font-size: 36px;
+  }
+  .desc {
+    font-size: 72px;
+    margin-left: 1px;
+  }
+}
+
+.hero {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
