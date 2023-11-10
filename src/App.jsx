@@ -1,10 +1,12 @@
 import "./app.scss";
+import Cursor from "./components/cursor/Cursor";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 
 const App = () => {
   return (
     <div>
+      <Cursor />
       <section>
         <Navbar />
         <Hero />
