@@ -2,11 +2,13 @@ import "./app.scss";
 import Cursor from "./components/cursor/Cursor";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
+import Sidebar from "./components/sidebar/Sidebar";
 
 const App = () => {
   return (
     <div>
       <Cursor />
+      <Sidebar />
       <section>
         <Navbar />
         <Hero />
