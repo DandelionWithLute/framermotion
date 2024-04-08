@@ -5,13 +5,19 @@
   margin-left: 100px;
 }
 
+.wrapper {
+  max-width: 1366px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+}
+
 .content {
-  min-width: 450px;
-  flex: 2;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-width: 420px;
   .name {
     display: flex;
     font-size: 36px;
@@ -23,7 +29,6 @@
 }
 
 .hero {
-  flex: 1;
   display: flex;
   justify-content: flex-end;
 }

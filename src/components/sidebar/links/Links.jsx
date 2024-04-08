@@ -13,6 +13,7 @@ const variants = {
     },
   },
 };
+
 const itemVariants = {
   open: {
     y: 0,
@@ -32,8 +33,8 @@ const Links = () => {
       {items.map((item) => (
         <motion.a
           href={`#${item}`}
-          key={item}
           variants={itemVariants}
+          key={item}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
